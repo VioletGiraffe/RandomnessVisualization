@@ -3,12 +3,11 @@
 ###################################################
 
 TEMPLATE = app
-TARGET   = NewAwesomeApplication
+TARGET   = RandomnessVisualizer
 
-#QT = core gui widgets network
+QT = core gui widgets
 #win*:QT += winextras
-CONFIG -= qt
-CONFIG += console
+#CONFIG += console
 
 CONFIG += strict_c++ c++2a
 
